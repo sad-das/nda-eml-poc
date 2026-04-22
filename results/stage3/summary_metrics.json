@@ -1,0 +1,74 @@
+[
+  {
+    "variant": "gradient_only",
+    "runs": 3,
+    "targets": 39,
+    "exact_recovery_rate": 0.0,
+    "mean_holdout_mse": 0.012678711186357031,
+    "mean_complex_mse": 0.040245039141915136,
+    "mean_candidate_evals": 1,
+    "mean_gate6_rejections": 0,
+    "final_preservation_rate": 1.0,
+    "mean_nodes_accepted_or_best": 0
+  },
+  {
+    "variant": "nda_full",
+    "runs": 3,
+    "targets": 39,
+    "exact_recovery_rate": 1.0,
+    "mean_holdout_mse": 9.055768748765822e-32,
+    "mean_complex_mse": 5.933261644874337e-32,
+    "mean_candidate_evals": 1,
+    "mean_gate6_rejections": 0,
+    "final_preservation_rate": 1.0,
+    "mean_nodes_accepted_or_best": 14.23076923076923
+  },
+  {
+    "variant": "no_freeze",
+    "runs": 3,
+    "targets": 39,
+    "exact_recovery_rate": 1.0,
+    "mean_holdout_mse": 9.055768748765822e-32,
+    "mean_complex_mse": 5.933261644874337e-32,
+    "mean_candidate_evals": 1,
+    "mean_gate6_rejections": 0,
+    "final_preservation_rate": 0.46153846153846156,
+    "mean_nodes_accepted_or_best": 14.23076923076923
+  },
+  {
+    "variant": "no_gate6",
+    "runs": 3,
+    "targets": 39,
+    "exact_recovery_rate": 0.0,
+    "mean_holdout_mse": 0.26831898556229483,
+    "mean_complex_mse": 0.3130275273144124,
+    "mean_candidate_evals": 1,
+    "mean_gate6_rejections": 0,
+    "final_preservation_rate": 0.23076923076923078,
+    "mean_nodes_accepted_or_best": 1
+  },
+  {
+    "variant": "no_rlcr",
+    "runs": 3,
+    "targets": 39,
+    "exact_recovery_rate": 1.0,
+    "mean_holdout_mse": 9.055768748765822e-32,
+    "mean_complex_mse": 5.933261644874337e-32,
+    "mean_candidate_evals": 7.846153846153846,
+    "mean_gate6_rejections": 1,
+    "final_preservation_rate": 1.0,
+    "mean_nodes_accepted_or_best": 14.23076923076923
+  },
+  {
+    "variant": "random_tree",
+    "runs": 3,
+    "targets": 39,
+    "exact_recovery_rate": 0.0,
+    "mean_holdout_mse": 1.9130439555434662,
+    "mean_complex_mse": 0.7738719222626276,
+    "mean_candidate_evals": 5.846153846153846,
+    "mean_gate6_rejections": 0,
+    "final_preservation_rate": 1.0,
+    "mean_nodes_accepted_or_best": 3.1538461538461537
+  }
+]

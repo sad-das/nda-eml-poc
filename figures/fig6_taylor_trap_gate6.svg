@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="700" viewBox="0 0 1100 700">
+<style>
+text { font-family: Arial, Helvetica, sans-serif; font-size: 22px; fill: #111; }
+.title { font-size: 30px; font-weight: 700; }
+.small { font-size: 17px; }
+.tiny { font-size: 14px; }
+.box { fill: #fff; stroke: #111; stroke-width: 2; }
+.arrow { stroke: #111; stroke-width: 2.5; fill: none; marker-end: url(#arrow); }
+.bar { fill: #fff; stroke: #111; stroke-width: 2; }
+.axis { stroke: #111; stroke-width: 2; }
+</style>
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L0,6 L9,3 z" fill="#111" /></marker></defs>
+<text x="55" y="65" class="title">Figure 6. Gate 6 and the Taylor trap</text><line class="axis" x1="120" y1="560" x2="880" y2="560"/><line class="axis" x1="120" y1="560" x2="120" y2="180"/><rect class="bar" x="180" y="384.6080055662875" width="130" height="175.39199443371248"/><text x="245.0" y="372.6080055662875" text-anchor="middle" class="tiny">3.3e-18</text><text x="245.0" y="590" text-anchor="middle" class="small">train</text><rect class="bar" x="370" y="379.06003080634105" width="130" height="180.93996919365892"/><text x="435.0" y="367.06003080634105" text-anchor="middle" class="tiny">9.6e-18</text><text x="435.0" y="590" text-anchor="middle" class="small">holdout</text><rect class="bar" x="560" y="376.7523609611278" width="130" height="183.24763903887217"/><text x="625.0" y="364.7523609611278" text-anchor="middle" class="tiny">1.5e-17</text><text x="625.0" y="590" text-anchor="middle" class="small">complex</text><rect class="bar" x="750" y="180.0" width="130" height="380.0"/><text x="815.0" y="168.0" text-anchor="middle" class="tiny">2.9e-01</text><text x="815.0" y="590" text-anchor="middle" class="small">asymptotic</text><text x="60" y="610" class="small">Taylor-like surrogate passes local training but fails asymptotic stress; Gate 6 rejects DKG commit.</text>
+</svg>

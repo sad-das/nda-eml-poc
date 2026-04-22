@@ -1,0 +1,46 @@
+{
+  "discovery_summary": [
+    {
+      "section": "bounded_shallow_discovery",
+      "family": "binary",
+      "rows": 15,
+      "shallow_found_rate": 0.2,
+      "same_as_registry_rate": 0.2,
+      "shorter_than_registry_rate": 0.0,
+      "mean_pool_size": 21612.0,
+      "mean_scanned_until_stop": 17290.2
+    },
+    {
+      "section": "bounded_shallow_discovery",
+      "family": "unary",
+      "rows": 24,
+      "shallow_found_rate": 0.75,
+      "same_as_registry_rate": 0.75,
+      "shorter_than_registry_rate": 0.0,
+      "mean_pool_size": 1446.0,
+      "mean_scanned_until_stop": 374.125
+    }
+  ],
+  "hardening_summary": [
+    {
+      "section": "adversarial_hardening",
+      "family": "binary",
+      "rows": 15,
+      "witness_adversarial_pass_rate": 1.0,
+      "shortcut_gate6_rejection_rate": 1.0,
+      "shortcut_adversarial_failure_rate": 1.0,
+      "mean_witness_real_mse": 1.7238792912612725e-31,
+      "mean_witness_complex_mse": 1.8870918130054737e-31
+    },
+    {
+      "section": "adversarial_hardening",
+      "family": "unary",
+      "rows": 24,
+      "witness_adversarial_pass_rate": 1.0,
+      "shortcut_gate6_rejection_rate": 1.0,
+      "shortcut_adversarial_failure_rate": 0.625,
+      "mean_witness_real_mse": 1.124550072716592e-31,
+      "mean_witness_complex_mse": 1.4853331451244291e-31
+    }
+  ]
+}

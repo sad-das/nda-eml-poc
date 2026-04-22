@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="700" viewBox="0 0 1100 700">
+<style>
+text { font-family: Arial, Helvetica, sans-serif; font-size: 22px; fill: #111; }
+.title { font-size: 30px; font-weight: 700; }
+.small { font-size: 17px; }
+.tiny { font-size: 14px; }
+.box { fill: #fff; stroke: #111; stroke-width: 2; }
+.arrow { stroke: #111; stroke-width: 2.5; fill: none; marker-end: url(#arrow); }
+.bar { fill: #fff; stroke: #111; stroke-width: 2; }
+.axis { stroke: #111; stroke-width: 2; }
+</style>
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L0,6 L9,3 z" fill="#111" /></marker></defs>
+<text x="55" y="65" class="title">Figure 3. Stage 3 ablation outcomes</text><line class="axis" x1="90" y1="560" x2="930" y2="560"/><line class="axis" x1="90" y1="560" x2="90" y2="180"/><rect class="bar" x="130" y="560.0" width="110" height="0.0"/><text x="185.0" y="548.0" text-anchor="middle" class="small">0.0</text><text x="185.0" y="588" text-anchor="end" transform="rotate(-35 185.0,588)" class="tiny">gradient_only</text><rect class="bar" x="270" y="180.0" width="110" height="380.0"/><text x="325.0" y="168.0" text-anchor="middle" class="small">1.0</text><text x="325.0" y="588" text-anchor="end" transform="rotate(-35 325.0,588)" class="tiny">nda_full</text><rect class="bar" x="410" y="180.0" width="110" height="380.0"/><text x="465.0" y="168.0" text-anchor="middle" class="small">1.0</text><text x="465.0" y="588" text-anchor="end" transform="rotate(-35 465.0,588)" class="tiny">no_freeze</text><rect class="bar" x="550" y="560.0" width="110" height="0.0"/><text x="605.0" y="548.0" text-anchor="middle" class="small">0.0</text><text x="605.0" y="588" text-anchor="end" transform="rotate(-35 605.0,588)" class="tiny">no_gate6</text><rect class="bar" x="690" y="180.0" width="110" height="380.0"/><text x="745.0" y="168.0" text-anchor="middle" class="small">1.0</text><text x="745.0" y="588" text-anchor="end" transform="rotate(-35 745.0,588)" class="tiny">no_rlcr</text><rect class="bar" x="830" y="560.0" width="110" height="0.0"/><text x="885.0" y="548.0" text-anchor="middle" class="small">0.0</text><text x="885.0" y="588" text-anchor="end" transform="rotate(-35 885.0,588)" class="tiny">random_tree</text><text x="60" y="610" class="small">Exact recovery rate. Loss-only and no-Gate6 variants fail to produce verified structural witnesses.</text>
+</svg>

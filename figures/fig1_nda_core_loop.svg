@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="700" viewBox="0 0 1100 700">
+<style>
+text { font-family: Arial, Helvetica, sans-serif; font-size: 22px; fill: #111; }
+.title { font-size: 30px; font-weight: 700; }
+.small { font-size: 17px; }
+.tiny { font-size: 14px; }
+.box { fill: #fff; stroke: #111; stroke-width: 2; }
+.arrow { stroke: #111; stroke-width: 2.5; fill: none; marker-end: url(#arrow); }
+.bar { fill: #fff; stroke: #111; stroke-width: 2; }
+.axis { stroke: #111; stroke-width: 2; }
+</style>
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L0,6 L9,3 z" fill="#111" /></marker></defs>
+<text x="55" y="65" class="title">Figure 1. NDA-core loop</text><rect class="box" x="70" y="135" width="230" height="70" rx="8"/><text x="185.0" y="178" text-anchor="middle">BelnapController</text><rect class="box" x="360" y="135" width="230" height="70" rx="8"/><text x="475.0" y="178" text-anchor="middle">Gradient Freeze</text><rect class="box" x="650" y="135" width="230" height="70" rx="8"/><text x="765.0" y="178" text-anchor="middle">SynthesisEngine</text><rect class="box" x="650" y="285" width="230" height="70" rx="8"/><text x="765.0" y="328" text-anchor="middle">Gate 6</text><rect class="box" x="360" y="285" width="230" height="70" rx="8"/><text x="475.0" y="328" text-anchor="middle">PracticeEngine</text><rect class="box" x="70" y="285" width="230" height="70" rx="8"/><text x="185.0" y="328" text-anchor="middle">DKG / Macro-nodes</text><rect class="box" x="650" y="435" width="230" height="70" rx="8"/><text x="765.0" y="478" text-anchor="middle">RLCR ordering</text><rect class="box" x="360" y="435" width="230" height="70" rx="8"/><text x="475.0" y="478" text-anchor="middle">Negative topology</text><path class="arrow" d="M300,170 L360,170"/><path class="arrow" d="M590,170 L650,170"/><path class="arrow" d="M765,205 L765,285"/><path class="arrow" d="M650,320 L590,320"/><path class="arrow" d="M360,320 L300,320"/><path class="arrow" d="M185,285 L185,205"/><path class="arrow" d="M765,355 L765,435"/><path class="arrow" d="M650,470 L590,470"/><path class="arrow" d="M475,435 L475,355"/><text x="55" y="610" class="small">Contradiction is not smoothed: Belnap B triggers freeze, structural synthesis, Gate 6 and verified DKG commit.</text>
+</svg>

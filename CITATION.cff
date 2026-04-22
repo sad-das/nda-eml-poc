@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the archived software release and the associated manuscript. Replace repository-code and DOI after the public GitHub/Zenodo release if necessary."
+title: "nda-eml-poc: EML proof-of-concept for Native Dialectical Architecture"
+type: software
+version: "1.0.0-paper"
+date-released: "2026-04-22"
+license: MIT
+repository-code: "https://github.com/sad-das/nda-eml-poc"
+abstract: "Proof-of-concept code and experimental artifacts for the EML branch of Native Dialectical Architecture: hierarchical macro-node discovery, Gate 6, Gradient Freeze, RLCR ordering and Taylor-trap rejection."
+authors:
+  - family-names: "Shilov"
+    given-names: "Denis"
+    affiliation: "Independent Researcher"
+    orcid: "https://orcid.org/0009-0003-1770-1671"
+keywords:
+  - Native Dialectical Architecture
+  - EML
+  - symbolic regression
+  - concept formation
+  - topological growth
+  - reproducibility
+references:
+  - type: article
+    title: "Native Dialectical Architecture: contradiction-preserving topological growth for practice-grounded concept formation"
+    authors:
+      - family-names: "Shilov"
+        given-names: "Denis"
+    year: 2026
+    notes: "Manuscript/preprint DOI or arXiv ID to be inserted after public release."

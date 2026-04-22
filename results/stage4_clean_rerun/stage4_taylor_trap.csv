@@ -1,0 +1,2 @@
+available,surface,is_eml_tree,accepted,reasons,train_mse,holdout_mse,complex_mse,asymptotic_mse,historical_expansion_cost
+True,taylor3_exp_macro_tree,True,False,unbounded_node_growth;asymptotic_stress_failure,3.3497195395350328e-18,9.648536837635816e-18,1.4982010274860325e-17,0.29480008219987724,679

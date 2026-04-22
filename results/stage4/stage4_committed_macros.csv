@@ -1,0 +1,11 @@
+name,arity,source_target,discovered_at_level,proposal_cost,historical_expansion_cost,historical_expansion_depth,frozen,raw_signature,provenance,proof_train_mse,proof_holdout_mse,proof_complex_mse,proof_asymptotic_mse,proof_macro_depth,proof_proposal_cost
+exp,1,exp_x,1,1,3,1,True,"eml(x,1)",eml,0.0,0.0,0.0,0.0,1,3
+ln,1,ln_x,1,1,7,3,True,"eml(1,eml(eml(1,x),1))",eml,5.4247026766907145e-33,1.556593733589101e-32,2.2750067059646738e-32,1.0612350291977017e-32,3,7
+e,0,e_const,1,1,3,1,True,"eml(1,1)",eml,0.0,0.0,0.0,0.0,1,3
+zero,0,zero_const,1,1,7,3,True,"eml(1,eml(eml(1,1),1))",ln,0.0,0.0,0.0,0.0,1,2
+sub,2,x_minus_y,2,1,11,4,True,"eml(eml(1,eml(eml(1,x),1)),eml(y,1))",ln|exp|eml,2.311115933264683e-32,4.4874167704222595e-32,4.350194261884669e-32,1.4664331908144583e-32,2,5
+neg,1,neg_x,2,1,17,7,True,"eml(eml(1,eml(eml(1,eml(1,eml(eml(1,1),1))),1)),eml(x,1))",zero|sub,5.135813185032629e-34,7.703719777548943e-34,9.073252980861466e-33,2.7391003653507353e-33,1,3
+add,2,x_plus_y,2,1,43,9,True,"eml(eml(1,eml(eml(1,eml(eml(1,eml(eml(1,x),1)),eml(eml(1,eml(eml(1,1),1)),1))),1)),eml(eml(eml(1,eml(eml(1,eml(1,eml(eml(1,1),1))),1)),eml(y,1)),1))",zero|sub|zero|sub|sub,7.395570986446986e-32,6.753594338317907e-32,8.06616073440088e-32,6.490445313114561e-33,2,7
+mul,2,x_times_y,3,1,57,12,True,"eml(eml(eml(1,eml(eml(1,eml(eml(1,eml(eml(1,eml(1,eml(eml(1,x),1))),1)),eml(eml(1,eml(eml(1,1),1)),1))),1)),eml(eml(eml(1,eml(eml(1,eml(1,eml(eml(1,1),1))),1)),eml(eml(1,eml(eml(1,y),1)),1)),1)),1)",ln|ln|add|exp,2.0851722659355762e-31,4.196326885620485e-31,2.1658161157022264e-31,9.599342306275934e-32,3,6
+div,2,x_div_y,3,1,25,8,True,"eml(eml(eml(1,eml(eml(1,eml(1,eml(eml(1,x),1))),1)),eml(eml(1,eml(eml(1,y),1)),1)),1)",ln|ln|sub|exp,1.8243817408159936e-32,5.083213294074542e-32,9.903919198521637e-32,7.331087809133266e-32,3,6
+square,1,x_square,4,1,57,12,True,"eml(eml(eml(1,eml(eml(1,eml(eml(1,eml(eml(1,eml(1,eml(eml(1,x),1))),1)),eml(eml(1,eml(eml(1,1),1)),1))),1)),eml(eml(eml(1,eml(eml(1,eml(1,eml(eml(1,1),1))),1)),eml(eml(1,eml(eml(1,x),1)),1)),1)),1)",mul,1.4664314861325368e-31,7.8438715755126985e-31,2.0331507024402393e-31,8.151675077707252e-32,1,3

@@ -1,0 +1,8 @@
+test_stage4_discovers_multiplication_without_manual_registry (test_stage4_discovery.Stage4DiscoveryTests.test_stage4_discovers_multiplication_without_manual_registry) ... ok
+test_stage4_flat_boundary_records_stage3_limit (test_stage4_discovery.Stage4DiscoveryTests.test_stage4_flat_boundary_records_stage3_limit) ... ok
+test_stage4_taylor_trap_is_fatal_not_reward_shaped (test_stage4_discovery.Stage4DiscoveryTests.test_stage4_taylor_trap_is_fatal_not_reward_shaped) ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.782s
+
+OK

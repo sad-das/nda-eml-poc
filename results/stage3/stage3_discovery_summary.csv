@@ -1,0 +1,3 @@
+section,family,rows,shallow_found_rate,same_as_registry_rate,shorter_than_registry_rate,mean_pool_size,mean_scanned_until_stop
+bounded_shallow_discovery,binary,15,0.2,0.2,0.0,21612.0,17290.2
+bounded_shallow_discovery,unary,24,0.75,0.75,0.0,1446.0,374.125

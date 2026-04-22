@@ -1,0 +1,16 @@
+{
+  "title": "nda-eml-poc: EML proof-of-concept for Native Dialectical Architecture",
+  "upload_type": "software",
+  "description": "Proof-of-concept code and experimental artifacts for the EML branch of Native Dialectical Architecture: hierarchical macro-node discovery, Gate 6, Gradient Freeze, RLCR ordering and Taylor-trap rejection.",
+  "creators": [
+    {
+      "name": "Shilov, Denis",
+      "affiliation": "Independent Researcher",
+      "orcid": "0009-0003-1770-1671"
+    }
+  ],
+  "version": "1.0.0-paper",
+  "license": "MIT",
+  "keywords": ["Native Dialectical Architecture", "EML", "symbolic regression", "concept formation", "topological growth", "reproducibility"],
+  "notes": "Related manuscript/preprint DOI or arXiv ID should be added after public preprint release."
+}

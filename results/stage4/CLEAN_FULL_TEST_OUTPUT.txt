@@ -1,0 +1,13 @@
+test_arithmetic_witness_values (test_stage2_witnesses.Stage2WitnessTests.test_arithmetic_witness_values) ... ok
+test_constructive_witnesses_pass_gate6_for_all_targets (test_stage2_witnesses.Stage2WitnessTests.test_constructive_witnesses_pass_gate6_for_all_targets) ... ok
+test_gate6_rejects_shortcut (test_stage2_witnesses.Stage2WitnessTests.test_gate6_rejects_shortcut) ... ok
+test_stage3_gate6_rejects_shortcuts_and_witnesses_hold_adversarially (test_stage3_hardening.Stage3HardeningTests.test_stage3_gate6_rejects_shortcuts_and_witnesses_hold_adversarially) ... ok
+test_stage3_shallow_discovery_recovers_exp_and_log (test_stage3_hardening.Stage3HardeningTests.test_stage3_shallow_discovery_recovers_exp_and_log) ... ok
+test_stage4_discovers_multiplication_without_manual_registry (test_stage4_discovery.Stage4DiscoveryTests.test_stage4_discovers_multiplication_without_manual_registry) ... ok
+test_stage4_flat_boundary_records_stage3_limit (test_stage4_discovery.Stage4DiscoveryTests.test_stage4_flat_boundary_records_stage3_limit) ... ok
+test_stage4_taylor_trap_is_fatal_not_reward_shaped (test_stage4_discovery.Stage4DiscoveryTests.test_stage4_taylor_trap_is_fatal_not_reward_shaped) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 5.347s
+
+OK

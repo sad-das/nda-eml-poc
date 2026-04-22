@@ -1,0 +1,25 @@
+{
+  "success_priors": {
+    "add": 1.0,
+    "eml": 4.0,
+    "exp": 3.0,
+    "ln": 4.0,
+    "mul": 1.0,
+    "sub": 3.0,
+    "zero": 2.0
+  },
+  "verified_patterns": [
+    "eml(x,1)",
+    "eml(1,eml(eml(1,x),1))",
+    "eml(1,1)",
+    "ln(1)",
+    "eml(ln(x),exp(y))",
+    "sub(zero,x)",
+    "sub(sub(x,zero),sub(zero,y))",
+    "exp(add(ln(x),ln(y)))",
+    "exp(sub(ln(x),ln(y)))",
+    "mul(x,x)"
+  ],
+  "fatal_rejection_events": 1,
+  "scalar_penalties_used": 0
+}

@@ -1,0 +1,6 @@
+target,flat_max_depth,pool_size,scanned,found
+ln_x,3,1446,53,True
+x_plus_y,3,21612,21612,False
+x_times_y,3,21612,21612,False
+x_div_y,3,21612,21612,False
+x_square,3,1446,1446,False

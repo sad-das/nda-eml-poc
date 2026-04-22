@@ -1,0 +1,16 @@
+[project]
+name = "nda-eml-poc"
+version = "1.0.0"
+description = "EML proof-of-concept artifacts for Native Dialectical Architecture: Stage 1-4, including macro-node curriculum discovery"
+requires-python = ">=3.10"
+dependencies = ["numpy"]
+authors = [
+  {name = "Denis Shilov", email = "shilovdenis@proton.me"}
+]
+license = {text = "MIT"}
+readme = "README.md"
+keywords = ["NDA", "EML", "symbolic-regression", "concept-formation", "topological-growth"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]

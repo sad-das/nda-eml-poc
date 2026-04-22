@@ -1,0 +1,3 @@
+section,family,rows,witness_adversarial_pass_rate,shortcut_gate6_rejection_rate,shortcut_adversarial_failure_rate,mean_witness_real_mse,mean_witness_complex_mse
+adversarial_hardening,binary,15,1.0,1.0,1.0,1.7238792912612725e-31,1.8870918130054737e-31
+adversarial_hardening,unary,24,1.0,1.0,0.625,1.124550072716592e-31,1.4853331451244291e-31

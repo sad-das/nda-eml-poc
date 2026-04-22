@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="700" viewBox="0 0 1100 700">
+<style>
+text { font-family: Arial, Helvetica, sans-serif; font-size: 22px; fill: #111; }
+.title { font-size: 30px; font-weight: 700; }
+.small { font-size: 17px; }
+.tiny { font-size: 14px; }
+.box { fill: #fff; stroke: #111; stroke-width: 2; }
+.arrow { stroke: #111; stroke-width: 2.5; fill: none; marker-end: url(#arrow); }
+.bar { fill: #fff; stroke: #111; stroke-width: 2; }
+.axis { stroke: #111; stroke-width: 2; }
+</style>
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L0,6 L9,3 z" fill="#111" /></marker></defs>
+<text x="55" y="65" class="title">Figure 2. Object-cell, method and architectural form</text><rect class="box" x="80" y="135" width="930" height="95" rx="8"/><text x="105" y="170" font-weight="700">Object-cell</text><text x="105" y="200" class="small">minimal objective relation in the environment</text><text x="105" y="224" class="small">(e.g., eml(a,b), read/write, failing codebase)</text><rect class="box" x="80" y="285" width="930" height="95" rx="8"/><text x="105" y="320" font-weight="700">NDA method</text><text x="105" y="350" class="small">project → action → resistance → antinomy → mediation → verification</text><rect class="box" x="80" y="435" width="930" height="95" rx="8"/><text x="105" y="470" font-weight="700">Architectural form</text><text x="105" y="500" class="small">Belnap state, DKG node, mediator edge, proof certificate, provenance</text><path class="arrow" d="M545,230 L545,285"/><path class="arrow" d="M545,380 L545,435"/>
+</svg>
