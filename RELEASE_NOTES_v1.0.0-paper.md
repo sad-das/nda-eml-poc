@@ -38,4 +38,6 @@ This repository does not demonstrate AGI. It is a restricted mathematical proof-
 - ORCID: https://orcid.org/0009-0003-1770-1671
 - Funding: This research received no specific grant from any funding agency in the public, commercial, or not-for-profit sectors.
 
-Repository URL and Zenodo DOI remain placeholders until the public GitHub repository and Zenodo archival step are completed.
+GitHub release: https://github.com/sad-das/nda-eml-poc/releases/tag/v1.0.0-paper
+
+Archived software release DOI: https://doi.org/10.5281/zenodo.19688532
