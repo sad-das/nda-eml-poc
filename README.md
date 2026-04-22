@@ -89,7 +89,13 @@ MIT License. Copyright (c) 2026 Denis Shilov.
 
 Please cite the archived Zenodo software release:
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19688689.svg)](https://doi.org/10.5281/zenodo.19688689)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19689202.svg)](https://doi.org/10.5281/zenodo.19689202)
+
+```text
+Shilov, D. (2026). nda-eml-poc: EML proof-of-concept for Native Dialectical Architecture (v1.0.2-paper). Zenodo. https://doi.org/10.5281/zenodo.19689202
+```
+
+The previous metadata/reproducibility archive remains available as `v1.0.1-paper`:
 
 ```text
 Shilov, D. (2026). nda-eml-poc: EML proof-of-concept for Native Dialectical Architecture (v1.0.1-paper). Zenodo. https://doi.org/10.5281/zenodo.19688689
