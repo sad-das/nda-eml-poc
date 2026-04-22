@@ -94,21 +94,3 @@ Please cite the archived Zenodo software release:
 ```text
 Shilov, D. (2026). nda-eml-poc: EML proof-of-concept for Native Dialectical Architecture (v1.0.3-paper). Zenodo. https://doi.org/10.5281/zenodo.19692414
 ```
-
-The previous publication-figure archive remains available as `v1.0.2-paper`:
-
-```text
-Shilov, D. (2026). nda-eml-poc: EML proof-of-concept for Native Dialectical Architecture (v1.0.2-paper). Zenodo. https://doi.org/10.5281/zenodo.19689202
-```
-
-The previous metadata/reproducibility archive remains available as `v1.0.1-paper`:
-
-```text
-Shilov, D. (2026). nda-eml-poc: EML proof-of-concept for Native Dialectical Architecture (v1.0.1-paper). Zenodo. https://doi.org/10.5281/zenodo.19688689
-```
-
-The historical first archive remains available as `v1.0.0-paper`:
-
-```text
-Shilov, D. (2026). nda-eml-poc: EML proof-of-concept for Native Dialectical Architecture (v1.0.0-paper). Zenodo. https://doi.org/10.5281/zenodo.19688532
-```
