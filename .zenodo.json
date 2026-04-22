@@ -12,5 +12,5 @@
   "version": "1.0.3-paper",
   "license": "MIT",
   "keywords": ["Native Dialectical Architecture", "EML", "symbolic regression", "concept formation", "topological growth", "reproducibility"],
-  "notes": "Checksum manifest hotfix release. Supersedes v1.0.2-paper for manuscript citation because v1.0.2-paper contained a SHA256SUMS manifest that referenced local Python bytecode cache files not present in the GitHub/Zenodo source archive. No experimental code, Stage 1-4 result logic, figures, or reported numerical claims were changed. Related manuscript/preprint DOI or arXiv ID should be added after public preprint release."
+  "notes": "Archived software release DOI: 10.5281/zenodo.19692414. Checksum manifest hotfix release. Supersedes v1.0.2-paper for manuscript citation because v1.0.2-paper contained a SHA256SUMS manifest that referenced local Python bytecode cache files not present in the GitHub/Zenodo source archive. No experimental code, Stage 1-4 result logic, figures, or reported numerical claims were changed. The historical v1.0.2-paper archive DOI is 10.5281/zenodo.19689202. Related manuscript/preprint DOI or arXiv ID should be added after public preprint release."
 }

@@ -12,8 +12,13 @@ No experimental code, Stage 1-4 result logic, figures, or reported numerical cla
 - Exclude Python `__pycache__` and `*.pyc` files from checksum verification.
 - Update package and citation metadata for `v1.0.3-paper`.
 
+## DOI
+
+- Version DOI: `10.5281/zenodo.19692414`
+- Concept DOI: `10.5281/zenodo.19688531`
+
 ## Validation
 
-- `SHA256SUMS` verification passed locally.
-- Unit tests passed locally: 8/8.
-- GitHub Actions should be checked after publishing this commit/tag.
+- GitHub Actions passed on `v1.0.3-paper`.
+- `SHA256SUMS` verification passed.
+- Unit tests passed: 8/8.
