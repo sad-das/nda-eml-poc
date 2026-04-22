@@ -1,14 +1,70 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="700" viewBox="0 0 1100 700">
-<style>
-text { font-family: Arial, Helvetica, sans-serif; font-size: 22px; fill: #111; }
-.title { font-size: 30px; font-weight: 700; }
-.small { font-size: 17px; }
-.tiny { font-size: 14px; }
-.box { fill: #fff; stroke: #111; stroke-width: 2; }
-.arrow { stroke: #111; stroke-width: 2.5; fill: none; marker-end: url(#arrow); }
-.bar { fill: #fff; stroke: #111; stroke-width: 2; }
-.axis { stroke: #111; stroke-width: 2; }
-</style>
-<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L0,6 L9,3 z" fill="#111" /></marker></defs>
-<text x="55" y="65" class="title">Figure 2. Object-cell, method and architectural form</text><rect class="box" x="80" y="135" width="930" height="95" rx="8"/><text x="105" y="170" font-weight="700">Object-cell</text><text x="105" y="200" class="small">minimal objective relation in the environment</text><text x="105" y="224" class="small">(e.g., eml(a,b), read/write, failing codebase)</text><rect class="box" x="80" y="285" width="930" height="95" rx="8"/><text x="105" y="320" font-weight="700">NDA method</text><text x="105" y="350" class="small">project → action → resistance → antinomy → mediation → verification</text><rect class="box" x="80" y="435" width="930" height="95" rx="8"/><text x="105" y="470" font-weight="700">Architectural form</text><text x="105" y="500" class="small">Belnap state, DKG node, mediator edge, proof certificate, provenance</text><path class="arrow" d="M545,230 L545,285"/><path class="arrow" d="M545,380 L545,435"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+  <title id="title">Figure 2. Object-cell, method and architectural form</title>
+  <desc id="desc">Three-layer mapping from minimal objective relation to NDA method cycle and persistent architectural record.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="strokeWidth">
+      <path d="M1,1 L11,6 L1,11 Z" fill="#2b2b2b"/>
+    </marker>
+    <style>
+      text { font-family: Arial, Helvetica, sans-serif; fill: #1f2933; }
+      .title { font-size: 30px; font-weight: 700; }
+      .subtitle { font-size: 17px; fill: #52616b; }
+      .panel-title { font-size: 22px; font-weight: 700; }
+      .label { font-size: 17px; font-weight: 700; }
+      .small { font-size: 15px; fill: #3e4c59; }
+      .tiny { font-size: 13px; fill: #52616b; }
+      .panel { fill: #ffffff; stroke: #243b53; stroke-width: 2; rx: 10; }
+      .band1 { fill: #e6f0fa; }
+      .band2 { fill: #fff3d6; }
+      .band3 { fill: #e6f4ea; }
+      .node { fill: #ffffff; stroke: #243b53; stroke-width: 1.8; }
+      .edge { stroke: #2b2b2b; stroke-width: 2; fill: none; marker-end: url(#arrow); }
+      .cycle { stroke: #5b7c99; stroke-width: 2.2; fill: none; marker-end: url(#arrow); }
+    </style>
+  </defs>
+
+  <rect x="0" y="0" width="1200" height="760" fill="#ffffff"/>
+  <text x="52" y="58" class="title">Figure 2. Object-cell, method and architectural form</text>
+  <text x="52" y="86" class="subtitle">The same relation is expressed as an environment object, a method cycle, and a DKG record.</text>
+
+  <rect class="panel band1" x="70" y="135" width="1060" height="155" rx="10"/>
+  <text class="panel-title" x="98" y="170">A. Object-cell</text>
+  <text class="small" x="98" y="198">
+    <tspan x="98" dy="0">Minimal objective relation in the environment: two terms, one resistant operation,</tspan>
+    <tspan x="98" dy="20">and measurable failure/success.</tspan>
+  </text>
+  <circle class="node" cx="260" cy="252" r="28"/><text class="label" x="260" y="258" text-anchor="middle">x</text>
+  <circle class="node" cx="430" cy="252" r="28"/><text class="label" x="430" y="258" text-anchor="middle">y</text>
+  <path class="edge" d="M288,252 H398"/>
+  <rect class="node" x="520" y="222" width="150" height="58" rx="8"/>
+  <text class="label" x="595" y="246" text-anchor="middle">eml(x,y)</text>
+  <text class="tiny" x="595" y="266" text-anchor="middle">resistance surface</text>
+  <path class="edge" d="M458,252 H520"/>
+
+  <rect class="panel band2" x="70" y="325" width="1060" height="180" rx="10"/>
+  <text class="panel-title" x="98" y="360">B. NDA method</text>
+  <g transform="translate(215 398)">
+    <circle class="node" cx="0" cy="38" r="35"/><text class="label" x="0" y="44" text-anchor="middle">action</text>
+    <circle class="node" cx="165" cy="38" r="35"/><text class="label" x="165" y="44" text-anchor="middle">resist</text>
+    <circle class="node" cx="330" cy="38" r="35"/><text class="label" x="330" y="44" text-anchor="middle">antinomy</text>
+    <circle class="node" cx="495" cy="38" r="35"/><text class="label" x="495" y="44" text-anchor="middle">mediate</text>
+    <circle class="node" cx="660" cy="38" r="35"/><text class="label" x="660" y="44" text-anchor="middle">verify</text>
+    <path class="cycle" d="M35,38 H130"/>
+    <path class="cycle" d="M200,38 H295"/>
+    <path class="cycle" d="M365,38 H460"/>
+    <path class="cycle" d="M530,38 H625"/>
+    <path class="cycle" d="M660,73 C590,135 95,135 0,73"/>
+  </g>
+
+  <rect class="panel band3" x="70" y="540" width="1060" height="150" rx="10"/>
+  <text class="panel-title" x="98" y="575">C. Architectural form</text>
+  <text class="small" x="98" y="603">
+    <tspan x="98" dy="0">Persistent record: Belnap state, DKG macro-node, mediator edge, proof certificate,</tspan>
+    <tspan x="98" dy="20">provenance and rejection topology.</tspan>
+  </text>
+  <rect class="node" x="110" y="648" width="155" height="28" rx="5"/><text class="tiny" x="188" y="667" text-anchor="middle">Belnap state</text>
+  <rect class="node" x="295" y="648" width="155" height="28" rx="5"/><text class="tiny" x="373" y="667" text-anchor="middle">DKG node</text>
+  <rect class="node" x="480" y="648" width="155" height="28" rx="5"/><text class="tiny" x="558" y="667" text-anchor="middle">proof</text>
+  <rect class="node" x="665" y="648" width="155" height="28" rx="5"/><text class="tiny" x="743" y="667" text-anchor="middle">provenance</text>
+  <rect class="node" x="850" y="648" width="210" height="28" rx="5"/><text class="tiny" x="955" y="667" text-anchor="middle">negative topology</text>
 </svg>

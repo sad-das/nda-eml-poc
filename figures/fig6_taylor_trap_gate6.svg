@@ -1,14 +1,75 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="700" viewBox="0 0 1100 700">
-<style>
-text { font-family: Arial, Helvetica, sans-serif; font-size: 22px; fill: #111; }
-.title { font-size: 30px; font-weight: 700; }
-.small { font-size: 17px; }
-.tiny { font-size: 14px; }
-.box { fill: #fff; stroke: #111; stroke-width: 2; }
-.arrow { stroke: #111; stroke-width: 2.5; fill: none; marker-end: url(#arrow); }
-.bar { fill: #fff; stroke: #111; stroke-width: 2; }
-.axis { stroke: #111; stroke-width: 2; }
-</style>
-<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L0,6 L9,3 z" fill="#111" /></marker></defs>
-<text x="55" y="65" class="title">Figure 6. Gate 6 and the Taylor trap</text><line class="axis" x1="120" y1="560" x2="880" y2="560"/><line class="axis" x1="120" y1="560" x2="120" y2="180"/><rect class="bar" x="180" y="384.6080055662875" width="130" height="175.39199443371248"/><text x="245.0" y="372.6080055662875" text-anchor="middle" class="tiny">3.3e-18</text><text x="245.0" y="590" text-anchor="middle" class="small">train</text><rect class="bar" x="370" y="379.06003080634105" width="130" height="180.93996919365892"/><text x="435.0" y="367.06003080634105" text-anchor="middle" class="tiny">9.6e-18</text><text x="435.0" y="590" text-anchor="middle" class="small">holdout</text><rect class="bar" x="560" y="376.7523609611278" width="130" height="183.24763903887217"/><text x="625.0" y="364.7523609611278" text-anchor="middle" class="tiny">1.5e-17</text><text x="625.0" y="590" text-anchor="middle" class="small">complex</text><rect class="bar" x="750" y="180.0" width="130" height="380.0"/><text x="815.0" y="168.0" text-anchor="middle" class="tiny">2.9e-01</text><text x="815.0" y="590" text-anchor="middle" class="small">asymptotic</text><text x="60" y="610" class="small">Taylor-like surrogate passes local training but fails asymptotic stress; Gate 6 rejects DKG commit.</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+  <title id="title">Figure 6. Gate 6 and the Taylor trap</title>
+  <desc id="desc">Log-scale stress profile showing that a Taylor-like surrogate has near-zero local error but fails asymptotic stress and is rejected by Gate 6.</desc>
+  <defs>
+    <style>
+      text { font-family: Arial, Helvetica, sans-serif; fill: #1f2933; }
+      .title { font-size: 30px; font-weight: 700; }
+      .subtitle { font-size: 17px; fill: #52616b; }
+      .axis { stroke: #1f2933; stroke-width: 2; }
+      .grid { stroke: #d7dee5; stroke-width: 1; }
+      .local { fill: #2f6f9f; }
+      .stress { fill: #c95c54; }
+      .box { fill: #fdebea; stroke: #9f2f2f; stroke-width: 2; rx: 10; }
+      .okbox { fill: #e6f4ea; stroke: #2f7d32; stroke-width: 2; rx: 10; }
+      .tick { font-size: 14px; fill: #52616b; }
+      .small { font-size: 14px; fill: #3e4c59; }
+      .stress-value { font-size: 14px; font-weight: 700; fill: #ffffff; }
+      .label { font-size: 16px; }
+      .decision { font-size: 23px; font-weight: 700; fill: #9f2f2f; }
+    </style>
+  </defs>
+
+  <rect x="0" y="0" width="1200" height="760" fill="#ffffff"/>
+  <text x="52" y="58" class="title">Figure 6. Gate 6 and the Taylor trap</text>
+  <text x="52" y="86" class="subtitle">Low local error is not sufficient: structural stress rejects shortcut surrogates.</text>
+
+  <g transform="translate(120 150)">
+    <line class="grid" x1="0" y1="430" x2="660" y2="430"/>
+    <line class="grid" x1="0" y1="382" x2="660" y2="382"/>
+    <line class="grid" x1="0" y1="287" x2="660" y2="287"/>
+    <line class="grid" x1="0" y1="191" x2="660" y2="191"/>
+    <line class="grid" x1="0" y1="96" x2="660" y2="96"/>
+    <line class="grid" x1="0" y1="0" x2="660" y2="0"/>
+    <line class="axis" x1="0" y1="430" x2="660" y2="430"/>
+    <line class="axis" x1="0" y1="430" x2="0" y2="0"/>
+    <text class="tick" x="-18" y="435" text-anchor="end">1e-18</text>
+    <text class="tick" x="-18" y="387" text-anchor="end">1e-16</text>
+    <text class="tick" x="-18" y="292" text-anchor="end">1e-12</text>
+    <text class="tick" x="-18" y="196" text-anchor="end">1e-8</text>
+    <text class="tick" x="-18" y="101" text-anchor="end">1e-4</text>
+    <text class="tick" x="-18" y="5" text-anchor="end">1e0</text>
+    <text class="label" x="-82" y="218" text-anchor="middle" transform="rotate(-90 -82,218)">MSE, log scale</text>
+
+    <rect class="local" x="70" y="417.5" width="90" height="12.5"/>
+    <text class="small" x="115" y="401" text-anchor="middle">3.35e-18</text>
+    <text class="small" x="115" y="462" text-anchor="middle">train</text>
+
+    <rect class="local" x="215" y="406.5" width="90" height="23.5"/>
+    <text class="small" x="260" y="390" text-anchor="middle">9.65e-18</text>
+    <text class="small" x="260" y="462" text-anchor="middle">holdout</text>
+
+    <rect class="local" x="360" y="401.8" width="90" height="28.2"/>
+    <text class="small" x="405" y="385" text-anchor="middle">1.50e-17</text>
+    <text class="small" x="405" y="462" text-anchor="middle">complex</text>
+
+    <rect class="stress" x="505" y="12.7" width="90" height="417.3"/>
+    <text class="stress-value" x="550" y="42" text-anchor="middle">2.95e-1</text>
+    <text class="small" x="550" y="462" text-anchor="middle">asymptotic</text>
+  </g>
+
+  <g transform="translate(835 185)">
+    <rect class="okbox" x="0" y="0" width="270" height="100" rx="10"/>
+    <text class="label" x="24" y="36">Local fit</text>
+    <text class="small" x="24" y="64">near-zero train / holdout</text>
+    <text class="small" x="24" y="86">Taylor-like macro tree</text>
+
+    <rect class="box" x="0" y="145" width="270" height="155" rx="10"/>
+    <text class="decision" x="24" y="188">Gate 6: reject</text>
+    <text class="small" x="24" y="222">unbounded node growth</text>
+    <text class="small" x="24" y="250">asymptotic stress failure</text>
+    <text class="small" x="24" y="278">no DKG commit</text>
+  </g>
+
+  <text class="small" x="120" y="710">The rejected surrogate is stored as negative topology rather than being converted into reward-shaped evidence.</text>
 </svg>
