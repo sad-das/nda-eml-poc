@@ -27,7 +27,11 @@ This repository does not demonstrate AGI. It is a restricted mathematical proof-
 
 ## DOI
 
-Zenodo assigns the version DOI when this GitHub release is archived. Cite the DOI displayed on the Zenodo record for `v1.0.1-paper`.
+Archived software release DOI:
+
+```text
+v1.0.1-paper: https://doi.org/10.5281/zenodo.19688689
+```
 
 Historical first archive:
 
