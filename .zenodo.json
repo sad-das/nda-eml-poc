@@ -9,8 +9,8 @@
       "orcid": "0009-0003-1770-1671"
     }
   ],
-  "version": "1.0.0-paper",
+  "version": "1.0.1-paper",
   "license": "MIT",
   "keywords": ["Native Dialectical Architecture", "EML", "symbolic regression", "concept formation", "topological growth", "reproducibility"],
-  "notes": "Archived software release DOI: 10.5281/zenodo.19688532. Related manuscript/preprint DOI or arXiv ID should be added after public preprint release."
+  "notes": "Metadata and reproducibility hotfix release. Supersedes v1.0.0-paper for manuscript citation. The historical v1.0.0-paper archive DOI is 10.5281/zenodo.19688532. Related manuscript/preprint DOI or arXiv ID should be added after public preprint release."
 }
